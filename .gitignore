@@ -1,0 +1,27 @@
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+ios/Pods/
+ios/.symlinks/
+
+# Generated platform folders (created via `flutter create .`)
+android/
+ios/
+linux/
+macos/
+windows/
+web/
+
+# IDE / OS
+*.iml
+.idea/
+.vscode/
+.DS_Store
+
+# Local Flutter SDK if cloned into the project
+flutter/
