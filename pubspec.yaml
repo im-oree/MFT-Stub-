@@ -1,0 +1,33 @@
+name: welcome_to_the_roof
+description: "Welcome To The Roof — rooftop pickup soccer booking app. Prototype with mock data, structured for backend connection."
+publish_to: "none"
+version: 0.1.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# No third-party packages — keeps `flutter pub get` instant and offline-safe.
+flutter:
+  uses-material-design: true
+  # ── Optional: match the design spec's "Poppins" typeface ──────────────────
+  # Download Poppins-{Regular,Medium,SemiBold,Bold}.ttf into assets/fonts/,
+  # then uncomment this block and set fontFamily: 'Poppins' in lib/theme/wtr_theme.dart
+  # fonts:
+  #   - family: Poppins
+  #     fonts:
+  #       - asset: assets/fonts/Poppins-Regular.ttf
+  #       - asset: assets/fonts/Poppins-Medium.ttf
+  #         weight: 500
+  #       - asset: assets/fonts/Poppins-SemiBold.ttf
+  #         weight: 600
+  #       - asset: assets/fonts/Poppins-Bold.ttf
+  #         weight: 700
